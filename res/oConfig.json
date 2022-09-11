@@ -1,0 +1,11 @@
+{
+  "server": {
+    "host": "draw-codev.olympe.io",
+    "port": 443,
+    "ssl": true
+  },
+  "composer": {
+    "suggestedUser": "admin",
+    "sso": "manual"
+  }
+}
