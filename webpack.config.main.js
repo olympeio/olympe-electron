@@ -8,7 +8,7 @@ module.exports = {
   mode,
   target: 'electron-main',
   devtool: 'cheap-module-source-map',
-  entry: './src/main/index.js',
+  entry: './src/electron.js',
   output: {
     globalObject: 'this',
     filename: 'index.js',

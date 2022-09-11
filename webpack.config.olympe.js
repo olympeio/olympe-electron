@@ -12,7 +12,7 @@ module.exports = {
   mode,
   target: 'electron-renderer',
   devtool: 'cheap-module-source-map',
-  entry: './src/olympe/main.js',
+  entry: './src/main.js',
   output: {
     globalObject: 'this',
     filename: 'olympe.js',
