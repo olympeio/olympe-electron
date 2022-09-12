@@ -79,6 +79,7 @@
     "@babel/preset-react": "7.18.6",
     "@electron/remote": "^2.0.5",
     "@olympeio/dev-tools": "2.1.1",
+    "@olympeio/draw": "2.1.3",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.3",
     "babel-preset-minify": "^0.5.0",
@@ -105,9 +106,7 @@
     "webpack-import-glob-loader": "1.6.3"
   },
   "dependencies": {
-    "@olympeio-extensions/commons": "2.1.3",
-    "@olympeio/core": "2.1.5",
-    "@olympeio/draw": "^2.2.0-rabbitmq.0",
-    "@olympeio/runtime-web": "9.1.1"
+    "@olympeio/runtime-web": "9.1.2",
+    "@olympeio/core": "2.1.6"
   }
 }

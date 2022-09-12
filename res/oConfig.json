@@ -1,11 +1,21 @@
 {
   "server": {
-    "host": "draw-codev.olympe.io",
+    "host": "community.fluidapp.io",
     "port": 443,
     "ssl": true
+  },
+  "bus": {
+    "host": "rabbitmq.olympe.io",
+    "path": "/mqtt",
+    "ssl": true,
+    "port": 443,
+    "vhost": "community"
   },
   "composer": {
     "suggestedUser": "admin",
     "sso": "manual"
+  },
+  "mapbox": {
+    "api-key": "pk.eyJ1Ijoib2x5bXBlIiwiYSI6ImNsM3ZqZDN1aTBidW0zZWxkenBidDE2YmUifQ.3P_a9u9W_HPMLMkWKj-mNg"
   }
 }
